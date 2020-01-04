@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="47">
+
+	<author>nilBrain</author>
+    <version>1.5.1.47.A</version>
+    
+	<title>
+        <en>No switch in Vehicle</en>
+        <de>Kein Fahrzeug taben</de>
+    </title>
+    
+	<description>
+        <en>
+			<![CDATA[This mod prevents/removes the possibility to switch to Vehicles using the Tab Key.]]>
+		</en>
+		<de>
+			<![CDATA[Dieser Mod verhindert/entfernt die möglichkeit über die Tabulatortaste sich in Fahrzeuge switchen.]]>
+		</de>
+    </description>
+    
+	<iconFilename>icon.dds</iconFilename>
+    <multiplayer supported="true"/>
+	
+	<extraSourceFiles>	
+		<sourceFile filename="NoSwitchInVehicle.lua" /> 
+	</extraSourceFiles>
+</modDesc>
