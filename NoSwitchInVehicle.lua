@@ -2,20 +2,26 @@
 -- NoSwitchInVehicle
 --
 -- @author  nilBrain
--- @date    04/01/20
+-- @date    22/01/20
 -- @node    Remove the Tabbed Binding in Vehicles
+-- Changelog:
+--		
+-- 	v0.1.0.0 (04.01.2020 04:45):
+-- 		- initial fs19
+--
+-- 	v1.0.0.0 (22.01.2020 22:31):
+-- 		- adaptations for the Modhub
 
 NoSwitchInVehicle = {
 	info = {
         Author = "nilBrain",
-        buildID = "04012020:0445.47.A",
+        buildID = "22012020:2231.47.A",
         title = " NoSwitchInVehicle",
         notes = " Remove the Bindings to tabbed Vehicles",
-        date = " 04.01.2020",
+        date = " 22.01.2020",
 	}
 };
 
-print((" ++ %s V.%s (by %s)"):format(NoSwitchInVehicle.info.title, NoSwitchInVehicle.info.buildID, NoSwitchInVehicle.info.Author));
 
 NoSwitchInVehicle.removedEventNames = {
     "SWITCH_VEHICLE",
