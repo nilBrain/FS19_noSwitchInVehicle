@@ -11,6 +11,9 @@
 --
 -- 	v1.0.0.0 (22.01.2020 22:31):
 -- 		- adaptations for the Modhub
+--
+-- 	v1.0.0.1 (11.05.2020 18:15):
+-- 		- add "Universal Passenger" support
 
 NoSwitchInVehicle = {
 	info = {
@@ -25,7 +28,10 @@ NoSwitchInVehicle = {
 
 NoSwitchInVehicle.removedEventNames = {
     "SWITCH_VEHICLE",
-    "SWITCH_VEHICLE_BACK"
+    "SWITCH_VEHICLE_BACK",
+    "ENTER_PASSENGER_SEAT",
+    "NEXT_PASSENGER_SEAT",
+    "NEXT_PASSENGER_VEHICLE"
 }
 
 BaseMission.registerActionEvents = Utils.appendedFunction(BaseMission.registerActionEvents, function(self)
