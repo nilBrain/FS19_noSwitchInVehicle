@@ -29,8 +29,6 @@ NoSwitchInVehicle = {
 NoSwitchInVehicle.removedEventNames = {
     "SWITCH_VEHICLE",
     "SWITCH_VEHICLE_BACK",
-    "ENTER_PASSENGER_SEAT",
-    "NEXT_PASSENGER_SEAT",
     "NEXT_PASSENGER_VEHICLE"
 }
 
